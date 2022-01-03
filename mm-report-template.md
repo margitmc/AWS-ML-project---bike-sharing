@@ -23,11 +23,7 @@ My model didn't perform that much better, in part because I haven't had much tim
 I might do more exploratory data analysis to see if there may be other features that could be generated that could help. I guess also further exploring hyperparameter optimization could help.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-
-	model 	num_bag_folds 	num_bag_sets 	num_stack_levels 	score
-0 	initial 	0 	0 	0 	1.39719
-1 	add_features 	0 	0 	0 	0.47173
-2 	hpo 	5 	1 	1 	0.47068
+![image](https://user-images.githubusercontent.com/1861163/147906323-4945a221-1ae9-4f87-a6f4-5c9a1c40634d.png)
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 ![image](https://user-images.githubusercontent.com/1861163/147906074-153ff116-0f75-48c8-abd2-3fa6cfe6be06.png)
