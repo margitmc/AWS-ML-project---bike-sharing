@@ -17,18 +17,13 @@ The model performed much better with the new features, probably because being ab
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-My model didn't perform that much better, in part because I haven't had much time to really dig into the various hyperparameters (including model specific ones) that could be useful.
+My model didn't perform. I tried various things in terms of actual hyperparameters after getting the submission feedback that I hadn't done this properly before. I tried NN and GBM hyperparameters, but then NN still seemed to score low, so I tried some variations on GBM hyperparameters including adding a couple. I also extended the allowed time. However, I never got the scores better than just with the new featuures and no HPO. I'm a bit fumbling in the dark with these hyperparameters and how to get them all to be explored properly.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
-I might do more exploratory data analysis to see if there may be other features that could be generated that could help. I guess also further exploring hyperparameter optimization could help.
+I might do more exploratory data analysis to see if there may be other features that could be generated that could help. (The feedback on my first submission had some interesting ideas - thanks!) I guess also further exploring hyperparameter optimization could help. At this point I need to move onto the other modules in this nanodegree so I'll leave it here for now.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-	initial	add_features	hpo
-num_bag_folds	0	0	5
-num_bag_sets	0	0	1
-num_stack_levels	0	0	1
-score	1.39719	0.47173	0.047068
-![image](https://user-images.githubusercontent.com/1861163/147906453-eac276b7-1d50-419f-8a1b-cedd6776e28e.png)
+![image](https://user-images.githubusercontent.com/1861163/147995091-f3da494b-3567-493b-b0cc-912b31608cad.png)
 
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
@@ -36,9 +31,7 @@ score	1.39719	0.47173	0.047068
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-TODO: Replace the image below with your own.
-
-![image](https://user-images.githubusercontent.com/1861163/147906082-291a1ef2-ff58-4f3a-b270-3399cc3cc3bc.png)
+![image](https://user-images.githubusercontent.com/1861163/147995134-207b4acb-867d-450b-adec-3b0ddbc9f1e0.png)
 
 ## Summary
 I enjoyed this exercise and it gave me an appreciation for the importance of exploratory data analysis and feature creation, as well as for the power of AutoGluon in finding an effective model.
